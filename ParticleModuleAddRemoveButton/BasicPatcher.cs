@@ -46,7 +46,7 @@ namespace ParticleModuleAddRemoveButton
                     text = "Add Module";
                 }
             }
-            eventData.UI.LocalActionButton(text, (Button btn) =>
+            var button = eventData.UI.LocalActionButton(text, (Button btn) =>
             {
                 var particleStyle = eventData.Worker.FindNearestParent<Slot>().GetComponentInParents<ParticleStyle>();
                 string text = "No ParticleStyle Found";
@@ -65,6 +65,20 @@ namespace ParticleModuleAddRemoveButton
                 }
                 btn.LabelText = text;
             });
+            if (particleStyle != null)
+            {
+                particleStyle.Modules.Changed += (IChangeable changeable) =>
+                {
+                    if (particleStyle.Modules.Contains((IParticleSystemSubsystem)eventData.Worker))
+                    {
+                        button.LabelText = "Remove Module";
+                    }
+                    else
+                    {
+                        button.LabelText = "Add Module";
+                    }
+                };
+            }
         }
     }
 }
