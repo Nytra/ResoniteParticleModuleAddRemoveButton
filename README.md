@@ -1,10 +1,10 @@
-Distant Component Optimizer
+Particle Module Add/Remove Button
 =============================
 
-Limits the update frequency of components that are too far away from you. Configurable.
+Adds a button to PhotonDust particle module components which quickly adds or removes them from the nearest parent ParticleStyle.
 
 ## Installation
 
 1. Install [MonkeyLoader Resonite GamePack](https://github.com/ResoniteModdingGroup/MonkeyLoader.GamePacks.Resonite)
-2. [Download the mod](https://github.com/Nytra/ResoniteDistantComponentOptimizer/releases/latest)
+2. [Download the mod](https://github.com/Nytra/ResoniteParticleModuleAddRemoveButton/releases/latest)
 3. Place it in your `MonkeyLoader/Mods` folder inside your Resonite installation
