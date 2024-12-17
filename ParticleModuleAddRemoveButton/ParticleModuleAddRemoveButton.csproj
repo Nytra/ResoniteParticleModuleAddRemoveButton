@@ -10,9 +10,9 @@
     <Title>ParticleModuleAddRemoveButton</Title>
     <Authors>Nytra</Authors>
     <Version>1.0.0</Version>
-    <Description>Limits the update frequency of distant components.</Description>
+    <Description>Adds a button to PhotonDust particle module components to quickly add or remove the module from the nearest parent ParticleStyle.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/Nytra/ResoniteDistantComponentOptimizer</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Nytra/ResoniteParticleModuleAddRemoveButton</PackageProjectUrl>
     <PackageTags>mod; mods; monkeyloader; resonite</PackageTags>
     <TargetsForTfmSpecificContentInPackage>$(TargetsForTfmSpecificContentInPackage)</TargetsForTfmSpecificContentInPackage>
   </PropertyGroup>
