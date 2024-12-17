@@ -1,6 +1,8 @@
 Particle Module Add/Remove Button
 =============================
 
+![2024-12-17 20 26 12](https://github.com/user-attachments/assets/0dbf46db-a715-4514-a5e3-30f43a8b5079)
+
 Adds a button to PhotonDust particle module components which quickly adds or removes them from the nearest parent ParticleStyle.
 
 ## Installation
