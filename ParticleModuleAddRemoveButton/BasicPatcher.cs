@@ -1,4 +1,5 @@
 ﻿using FrooxEngine;
+using MonkeyLoader.Resonite.UI.Inspectors;
 using MonkeyLoader.Resonite.UI;
 using FrooxEngine.PhotonDust;
 using FrooxEngine.UIX;
